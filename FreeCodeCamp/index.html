@@ -1,0 +1,131 @@
+<!-- Activity No. 65 add "!DOCTYPE html" as the first line of code -->
+<!DOCTYPE html>
+<!-- Activity No. 64 add a "language" attribute with the value of "en"-->
+<html lang="en">
+<!-- Activity No. 62 add a "head" element -->    
+<head>
+    <!-- Activity No. 66 add "meta" element with the attribute of "charset" and value of "UTF-8" -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Activity No. 63 add a "title" element -->
+    <title>CatPhotoApp</title>
+</head>
+<body>
+    <!-- Activity 5 -->
+    <main>
+        <!-- Activity No. 1 -->
+        <h1>CatPhotoApp</h1>
+        <!-- Activity No. 14 nest the element from h2 to anchor tag in section tag-->
+        <section>
+            <!-- Activity No. 2 -->
+            <h2>Cat Photos</h2>
+            <!-- Activity No. 3 add a "p" with a text
+                Activity No. 4:  "TODO: Add link to cat photos"
+                Activity No. 11 turn the "cat photos" words into link 
+                Activity No. 12 add a "target" with the value "_blank" to the "a" -->
+            <p>See more <a href="https://freecatphotoapp.com" target="_blank">cat photos</a> in our gallery.</p>
+            <!-- Activity No. 9 add an "a" element 
+                Activity No. 10 add text in the middle of opening and closing anchor tag -->
+            <!--<a href="https://freecatphotoapp.com">link to cat pictures</a>-->
+            <!-- Activity No. 6 add an "img" attribute
+                Activity No. 7 add an "src" attribute and the URL 
+                Activity No. 8 add an "alt" attribute with a text
+                Activity No. 13 turn the image into link -->
+            <a href="https://freecatphotoapp.com"><img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" alt="A cute orange cat lying on its back."></a>
+        </section>
+        <!-- Activity No. 14 add a new "section" tag -->
+        <section>
+            <!-- Activity No. 15 add a new "h2" tag with text "Cat Lists" -->
+            <h2>Cat Lists</h2>
+            <!-- Activity No. 16 add a new "h3" tag with text "Things cats love: " -->
+            <h3>Things cats love: </h3>
+            <!-- Activity No. 17 add a "ul" unordered list tag -->
+            <ul>
+                <!-- Activity No. 18 add a "li" list tag with texts -->
+                <li>cat nip</li>
+                <li>laser pointers</li>
+                <li>lasagna</li>
+            </ul>
+            <!-- Activity No. 19 add a new "image tag" with "alt" attribute 
+                 Activity No. 20 add a "figure" element 
+                 Activity No. 21 add a "figcaption" element 
+                 Activity No. 22 add a "em" tag -->
+            <figure>
+                <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/lasagna.jpg" alt="A slice of lasagna on a plate.">
+                <figcaption>Cats <em>love</em> lasagna</figcaption>
+            </figure>
+            <!-- Activity No. 23 add a "h3" tag with texts -->
+            <h3>Top 3 things cats hate:</h3>
+            <!-- Activity No. 24 add a "ol" ordered list tag -->
+            <ol>
+                <li>flea treatment</li>
+                <li>thunder</li>
+                <li>other cats</li>
+            </ol>
+            <!-- Activity No. 25 add a "figure" element  
+                 Activity No. 26 add an image tag 
+                 Activity No. 27 add an alt 
+                 Activity No. 28 add a "figcaption" element
+                 Activity No. 29 add a "strong" tag -->
+            <figure>
+                <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg" alt="Five cats looking around a field.">
+                <figcaption>Cats <strong>hate</strong> other cats</figcaption>
+            </figure>
+        </section>
+        <!-- Activity No. 30 add a new "section" tag -->
+        <section>
+            <!-- Activity No. 31 add an "h2" tag -->
+            <h2>Cat Form</h2>
+            <!-- Activity No. 32 add a "form" tag 
+                 Activity No. 33 add an action attribute -->
+            <form action="https://freecatphotoapp.com/submit-cat-photo">
+                <!-- Activity No. 47 Nest Indoor and Outdoor radio buttons with a "fieldset" element -->
+                <fieldset>
+                    <!-- Activity No. 48 add a "legend" tag -->
+                    <legend>Is your cat an indoor or outdoor cat?</legend>
+                    <!-- Activity No. 41 add a radio button
+                        Activity No. 42 add a space between the input and text "Indoor" 
+                        Activity No. 43 add an "id" attribute with the value "indoor" 
+                        Activity No. 45 add "name" attribute with the value of "indoor-outdoor" 
+                        Activity No. 46 add "value" attribute for both radio buttons 
+                        Activity No. 58 make the first radio button and checkboxes selected by default using "checked" attribute -->
+                    <label><input id="indoor" type="radio" name="indoor-outdoor" value="indoor" checked> Indoor</label>
+                    <!-- Activity No. 44 add another radio button below the first one -->
+                    <label><input id="outdoor" type="radio" name="indoor-outdoor" value="outdoor"> Outdoor</label>
+                </fieldset>
+                <!-- Activity No. 49 add a new "fieldset" tag -->
+                <fieldset>
+                    <!-- Activity No. 50 add a "legend" tag -->
+                    <legend>What's your cat's personality?</legend>
+                    <!-- Activity No. 51 add a "input" tag with attribute of "checkbox" 
+                         Activity No. 52 add an "id" attribute
+                         Activity No. 53 add a "label" element with a "for" attribute 
+                         Activity No. 54 add a "name" attribute with a value of "personality" -->
+                    <input type="checkbox" id="loving" name="personality" value="loving" checked><label for="loving">Loving</label>
+                    <!-- Activity No. 55 add another checkbox same as the Activity No. 54 -->
+                    <input type="checkbox" id="lazy" name="personality" value="lazy"><label for="lazy">Lazy</label>
+                    <!-- Activity No. 56 add another checkbox same as the Activity No. 54 
+                         Activity No. 57 add value attribute on the same value as id on each checkboxes-->
+                    <input type="checkbox" id="energetic" name="personality" value="energetic"><label for="energetic">Energetic</label>
+                </fieldset>
+
+                <!-- Activity No. 34 add an "input" tag 
+                     Activity No. 35 add a "type" attribute
+                     Activity No. 36 add a "name" attribute
+                     Activity No. 37 add a "placeholder" attribute
+                     Activity No. 38 add a "required" attribute -->
+                <input type="text" name="catphotourl" placeholder="cat photo URL" required>
+                <!-- Activity No. 39 add a "button" tag 
+                     Activity No. 40 add a "submit" attribute -->
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+    <!-- Activity No. 59 Make a "footer" element--> 
+    <footer>
+        <!-- Activity No. 60 add a "p" element with a text 
+             Activity No. 61 add a "href" element in the "p" element -->
+        <p>No Copyright - <a href="https://www.freecodecamp.org">freeCodeCamp.org</a></p>
+    </footer>
+</body>
+</html>
